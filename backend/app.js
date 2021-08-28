@@ -16,7 +16,8 @@ require("dotenv").config();
 
 const allowedCors = [
   "http://localhost:3000",
- 
+  "http://express.nomoredomains.club",
+  "https://express.nomoredomains.club"
 ];
 
 app.use(helmet());
