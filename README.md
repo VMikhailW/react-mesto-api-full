@@ -15,7 +15,7 @@
 10. Express
 11. MongoDB
  
-🔗Домен сервера (фронтенд) -  https://express.nomoredomains.club
+🔗Домен сервера (фронтенд) -  http://express.nomoredomains.club
 
-🔗Домен сервера (бэкенд) -   https://express-bd.nomoredomains.monster
+🔗Домен сервера (бэкенд) -   http://express-bd.nomoredomains.monster
 
