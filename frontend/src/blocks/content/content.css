@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 880px) {
+  .content {
+    padding: 0 19px;
+  }
+}

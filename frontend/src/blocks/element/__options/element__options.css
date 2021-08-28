@@ -1,0 +1,10 @@
+.element__options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 21px 0 15px;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+}
