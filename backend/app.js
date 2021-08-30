@@ -16,7 +16,7 @@ require("dotenv").config();
 
 const allowedCors = [
   "http://localhost:3000",
-  "http://express.nomoredomains.club"
+  "http://express.nomoredomains.club",
 ];
 
 app.use(helmet());
@@ -51,9 +51,9 @@ app.use((req, res, next) => {
 
 app.use(requestLogger);
 
-app.get('/crash-test', () => {
+app.get("/crash-test", () => {
   setTimeout(() => {
-    throw new Error('Сервер сейчас упадёт');
+    throw new Error("Сервер сейчас упадёт");
   }, 0);
 });
 
